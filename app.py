@@ -14,7 +14,16 @@ data = json.load(movies)
 #         print(movies["title"],movies["year"])
 
 
-m = (int(input("input year, and movie after is printed")))
-          
+# m = (int(input("input year, and movie after is printed")))
+# for movies in data:
+#     if m < movies ["year"]:
+#         print(movies["title"], movies["year"])
+# n = (int(input("input year, and movie before is printed")))
+# for movies in data:
+#     if m > movies ["year"]:
+#         print(movies["title"], movies["year"])
 
-
+m = (int(input("input year , movie printed")))
+for movies in data:
+    if m == movies ["year"]:
+        print(movies["title"], movies["year"])
