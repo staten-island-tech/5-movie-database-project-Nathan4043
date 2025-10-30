@@ -25,5 +25,5 @@ data = json.load(movies)
 
 m = (int(input("input year , movie printed")))
 for movies in data:
-    if m == movies ["year"]:
+    if m == movies["year"]:
         print(movies["title"], movies["year"])
